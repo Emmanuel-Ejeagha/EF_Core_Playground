@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KLpgFDT83eiRGxFB9M0sNCLFmqajPxbXEZLI2gg2V4I=",
+  "Source": "MultipleVerbsMinimalApiWithStatusCodes",
+  "BasePath": "_content/MultipleVerbsMinimalApiWithStatusCodes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
