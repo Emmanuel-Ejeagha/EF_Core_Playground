@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "myja+b0ekEZuxr4PS0h1neqHcJq0zoZEhKStwsl3z84=",
+  "Source": "SendingEmailWithDI",
+  "BasePath": "_content/SendingEmailWithDI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
