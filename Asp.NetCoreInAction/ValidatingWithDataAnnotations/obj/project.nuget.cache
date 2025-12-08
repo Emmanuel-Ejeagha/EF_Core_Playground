@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+fJhe9Wm65g=",
+  "dgSpecHash": "u+F11hl3db8=",
   "success": true,
   "projectFilePath": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/ValidatingWithDataAnnotations/ValidatingWithDataAnnotations.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/emmytek/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/emmytek/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/emmytek/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

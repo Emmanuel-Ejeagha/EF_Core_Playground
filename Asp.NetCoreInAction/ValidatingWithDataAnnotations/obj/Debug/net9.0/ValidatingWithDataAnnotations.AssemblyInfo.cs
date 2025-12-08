@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValidatingWithDataAnnotations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083aa32ec8b42859b7293c1b8d1adc5cae939a16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9598edce7e62633a862609ef14ae85a2985c5d1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValidatingWithDataAnnotations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValidatingWithDataAnnotations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
