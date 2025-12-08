@@ -1,0 +1,11 @@
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/bin/Debug/netstandard2.1/DataLayer.deps.json
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/bin/Debug/netstandard2.1/DataLayer.dll
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/bin/Debug/netstandard2.1/DataLayer.pdb
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.csproj.AssemblyReference.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.AssemblyInfo.cs
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.sourcelink.json
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.dll
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/DataLayer/obj/Debug/netstandard2.1/DataLayer.pdb

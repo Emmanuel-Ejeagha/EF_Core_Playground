@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BookApp
+build_property.RootNamespace = BookApp
+build_property.ProjectDir = /home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Admin/AddBookReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRkQm9va1Jldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Admin/BookUpdated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQm9va1VwZGF0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Admin/ChangePromotion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2hhbmdlUHJvbW90aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Admin/ChangePubDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2hhbmdlUHViRGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Checkout/ListBasketPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvTGlzdEJhc2tldFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Checkout/PlaceOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvUGxhY2VPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Orders/ConfirmOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0NvbmZpcm1PcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Orders/OneOrderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL09uZU9yZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Shared/LogModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvZ01vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/emmytek/Desktop/EFCoreInAction/Chpt2QueryingTheDatabase/BookApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

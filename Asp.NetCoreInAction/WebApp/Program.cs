@@ -20,7 +20,6 @@ if (app.Environment.IsDevelopment())
     app.UseHttpLogging();
 }
 
-
 app.UseWelcomePage("/welcome");   // <--- Only show welcome at /welcome
 
 app.MapGet("/", () => "Hello World!");

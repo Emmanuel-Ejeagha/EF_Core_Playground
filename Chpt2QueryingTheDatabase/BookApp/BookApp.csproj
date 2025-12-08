@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+<TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="bundleconfig.json" />
+    <Content Remove="wwwroot\js\bundle.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\bundle.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bundleconfig.json" />
+    <None Include="Views\Admin\AddBookReview.cshtml" />
+    <None Include="Views\Admin\BookUpdated.cshtml" />
+    <None Include="Views\Admin\ChangePromotion.cshtml" />
+    <None Include="Views\Admin\ChangePubDate.cshtml" />
+    <None Include="Views\Checkout\Index.cshtml" />
+    <None Include="Views\Checkout\ListBasketPartial.cshtml" />
+    <None Include="Views\Checkout\PlaceOrder.cshtml" />
+    <None Include="Views\Orders\ConfirmOrder.cshtml" />
+    <None Include="Views\Orders\Index.cshtml" />
+    <None Include="Views\Orders\OneOrderPartial.cshtml" />
+    <None Include="wwwroot\js\bundle.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GenericServices.StatusGeneric" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BizLogic\BizLogic.csproj" />
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+    <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

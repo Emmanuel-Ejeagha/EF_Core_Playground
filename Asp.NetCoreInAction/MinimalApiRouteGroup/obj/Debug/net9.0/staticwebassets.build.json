@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Dk1Bv3gCAoQ81H82HVTH0BNK7aZ0m/+lMhLVE4j8Ydw=",
+  "Source": "MinimalApiRouteGroup",
+  "BasePath": "_content/MinimalApiRouteGroup",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

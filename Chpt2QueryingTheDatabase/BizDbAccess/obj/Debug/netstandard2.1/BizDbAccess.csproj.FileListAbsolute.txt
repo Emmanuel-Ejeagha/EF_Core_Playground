@@ -1,0 +1,14 @@
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/bin/Debug/netstandard2.1/BizDbAccess.deps.json
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/bin/Debug/netstandard2.1/BizDbAccess.dll
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/bin/Debug/netstandard2.1/BizDbAccess.pdb
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/bin/Debug/netstandard2.1/DataLayer.dll
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/bin/Debug/netstandard2.1/DataLayer.pdb
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.csproj.AssemblyReference.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.AssemblyInfo.cs
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.sourcelink.json
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAcc.E40D2703.Up2Date
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.dll
+/home/emmytek/Desktop/EfCoreinAction-SecondEdition/BizDbAccess/obj/Debug/netstandard2.1/BizDbAccess.pdb

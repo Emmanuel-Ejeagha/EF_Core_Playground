@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MinimalApiRouteGroup.props" />
+</Project>

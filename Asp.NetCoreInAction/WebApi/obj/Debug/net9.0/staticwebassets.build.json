@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "OR7tSvpCq7D1NlThMRief7ilS23vc3LfzyEMDg3+49A=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi/wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApi/wwwroot/money.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "money#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qagoz3ve26",
+      "Integrity": "gse2/6KYXGI6Ga9l132s65yOvLtD6rNVsKqAbYynZXk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/money.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "money.jpg",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApi/wwwroot/money.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gse2/6KYXGI6Ga9l132s65yOvLtD6rNVsKqAbYynZXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Dec 2025 18:46:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gse2/6KYXGI6Ga9l132s65yOvLtD6rNVsKqAbYynZXk="
+        }
+      ]
+    },
+    {
+      "Route": "money.qagoz3ve26.jpg",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApi/wwwroot/money.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gse2/6KYXGI6Ga9l132s65yOvLtD6rNVsKqAbYynZXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Dec 2025 18:46:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qagoz3ve26"
+        },
+        {
+          "Name": "label",
+          "Value": "money.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gse2/6KYXGI6Ga9l132s65yOvLtD6rNVsKqAbYynZXk="
+        }
+      ]
+    }
+  ]
+}

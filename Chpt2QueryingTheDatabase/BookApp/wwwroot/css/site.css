@@ -1,0 +1,131 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*---------------------------------------------------------------------*/
+/* Extra bits added specificially for the EF Core Example Book project */
+
+/* see http://stackoverflow.com/a/24830641/1434764 */
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+/* parts to format the sort, filter and page controls*/
+
+.sort-filter-width {
+    width: 165px;
+}
+
+.page-control-width {
+    width: 80px;
+}
+
+.page-num-input {
+    display: inline-block;
+}
+
+.num-pages-text {
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.dim-filter-value {
+    opacity: 0.3
+}
+
+.table tbody > tr > td.vert-align {
+    vertical-align: middle;
+}
+
+hr.grayhozrline {
+    border-top: 1px solid grey;
+}
+
+.image-drop-shadow {
+    box-shadow: 3px 3px lightgrey;
+}
+
+/*------------------------------------------------------------------
+    Extra bits for showing log - see http://stackoverflow.com/a/32351302/1434764
+*/
+
+.white-space-pre {
+    white-space: pre-wrap;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.text-overflow-dots {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

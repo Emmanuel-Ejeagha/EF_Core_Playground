@@ -27,3 +27,4 @@
 /home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApp/obj/Debug/net9.0/WebApp.pdb
 /home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApp/obj/Debug/net9.0/WebApp.genruntimeconfig.cache
 /home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApp/obj/Debug/net9.0/ref/WebApp.dll
+/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/WebApp/bin/Debug/net9.0/WebApp.staticwebassets.runtime.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinimalApiFilters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa0802afbafbf6605f78225e3d9206eaa83de0fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd0d41303e4eb94f9685e13b656da1055fbf7cb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalApiFilters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalApiFilters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
