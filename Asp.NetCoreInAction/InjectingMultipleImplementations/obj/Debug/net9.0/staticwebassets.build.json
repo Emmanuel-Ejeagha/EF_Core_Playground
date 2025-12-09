@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "y5lUBD51gdmV+EVGdD73uMjWSUIGKSl1IJNQgIt/dtc=",
+  "Source": "InjectingMultipleImplementations",
+  "BasePath": "_content/InjectingMultipleImplementations",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
