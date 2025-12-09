@@ -7,14 +7,7 @@ builder.Services.AddHttpLogging(options =>
 
 builder.Logging.AddFilter("Microsoft.AspNetCore", LogLevel.Information);
 
-builder.Services.AddScoped<IEmailSender, EmailSender>();
-builder.Services.AddSingleton<NetworkClient>();
-builder.Services.AddScoped<MessageFactory>();
-builder.Services.AddSingleton(provider =>
-    new EmailServerSettings(
-        Host:  "smpt.server.com",
-        Port: 25
-    ));
+builder.Services.AddEmailSender();
 
 var app = builder.Build();
 
@@ -77,4 +70,21 @@ public class MessageFactory
 {
     public Email Create(string emailAddress) =>
         new Email(emailAddress, "Thanks for signing up!");
+}
+
+public static class EmailSenderServiceCollectionExtensions
+{
+    public static IServiceCollection AddEmailSender(this IServiceCollection services)
+    {
+        services.AddScoped<IEmailSender, EmailSender>();
+        services.AddSingleton<NetworkClient>();
+        services.AddScoped<MessageFactory>();
+        services.AddSingleton(
+            new EmailServerSettings
+            (
+                Host: "smtp.server.com",
+                Port: 25
+            ));
+        return services;
+    }
 }
