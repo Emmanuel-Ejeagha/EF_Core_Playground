@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InjectingMultipleImplementations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffab81ac0554d06bc13bf382b59276f39faa5771")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b795eaeed310c4f0319c618babf95722e5b9f7fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("InjectingMultipleImplementations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InjectingMultipleImplementations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
