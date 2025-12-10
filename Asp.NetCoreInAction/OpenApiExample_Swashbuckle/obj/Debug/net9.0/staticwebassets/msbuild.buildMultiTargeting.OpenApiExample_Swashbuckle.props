@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/OpenApiExample_Swashbuckle.props" />
+</Project>

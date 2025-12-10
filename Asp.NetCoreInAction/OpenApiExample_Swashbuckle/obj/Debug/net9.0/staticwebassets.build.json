@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FtGKq7md70MPFzSVcLBqulhjgIu9P8dHkwCD8SuB1xI=",
+  "Source": "OpenApiExample_Swashbuckle",
+  "BasePath": "_content/OpenApiExample_Swashbuckle",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
