@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendingEmailWithDI", "Asp.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectingMultipleImplementations", "Asp.NetCoreInAction\InjectingMultipleImplementations\InjectingMultipleImplementations.csproj", "{78683927-9FBA-4BF3-8B7D-33E424F1AAF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreViewerApplication", "Asp.NetCoreInAction\StoreViewerApplication\StoreViewerApplication.csproj", "{A551E5AD-C466-47D3-9375-0F81035DC478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApiExample_Swashbuckle", "Asp.NetCoreInAction\OpenApiExample_Swashbuckle\OpenApiExample_Swashbuckle.csproj", "{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +203,30 @@ Global
 		{78683927-9FBA-4BF3-8B7D-33E424F1AAF6}.Release|x64.Build.0 = Release|Any CPU
 		{78683927-9FBA-4BF3-8B7D-33E424F1AAF6}.Release|x86.ActiveCfg = Release|Any CPU
 		{78683927-9FBA-4BF3-8B7D-33E424F1AAF6}.Release|x86.Build.0 = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|x64.Build.0 = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Debug|x86.Build.0 = Debug|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|x64.ActiveCfg = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|x64.Build.0 = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|x86.ActiveCfg = Release|Any CPU
+		{A551E5AD-C466-47D3-9375-0F81035DC478}.Release|x86.Build.0 = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|x64.Build.0 = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +245,8 @@ Global
 		{10C17A96-0767-42BA-B964-0CD6A2936B2E} = {642712A2-4DF6-5339-664A-38ADAE307475}
 		{9395AED0-C2C2-4B83-8AE2-0BC8E71412FE} = {642712A2-4DF6-5339-664A-38ADAE307475}
 		{78683927-9FBA-4BF3-8B7D-33E424F1AAF6} = {642712A2-4DF6-5339-664A-38ADAE307475}
+		{A551E5AD-C466-47D3-9375-0F81035DC478} = {642712A2-4DF6-5339-664A-38ADAE307475}
+		{3D0964CA-AC16-4EBB-9D71-F26A8ECE0F74} = {642712A2-4DF6-5339-664A-38ADAE307475}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E27D4936-A23B-404C-9F98-08E71CCB021E}
