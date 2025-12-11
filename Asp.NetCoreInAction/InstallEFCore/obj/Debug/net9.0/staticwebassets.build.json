@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "26tOiqJn75c5HR3tfdOTIjhkSs7mCfI0SiaO3Obwiik=",
+  "Source": "InstallEFCore",
+  "BasePath": "_content/InstallEFCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
