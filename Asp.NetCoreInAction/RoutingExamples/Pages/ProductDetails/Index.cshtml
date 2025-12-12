@@ -1,0 +1,12 @@
+﻿@page "{name}"
+@model MyApp.Namespace.IndexModel
+@{
+    ViewData["Title"] = "ProductDetails";
+}
+
+<h1>@Model.Selected.Name</h1>
+
+<dl>
+    <dt>Price</dt>
+    <dd>$@Model.Selected.Price</dd>
+</dl>
