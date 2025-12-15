@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PageHandlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9679c630bc77fa1ba87e5ce00a8170a77331adcd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff2131769f45b55304d57e5b5920bc3d5413e4d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PageHandlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PageHandlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
