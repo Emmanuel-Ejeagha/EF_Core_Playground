@@ -1,8 +1,48 @@
 ﻿@page
 @model CurrencyConverter.Pages.Currency.SuccessModel
 @{
-    ViewData["Title"] = "Success";
+    ViewData["Title"] = "Conversion Successful";
 }
 
-<h1>Success!</h1>
-<p>The values you submitted were valid</p>
+<div class="text-center">
+    <h1 class="display-4 text-success">✓ Conversion Successful</h1>
+
+    @if (!string.IsNullOrEmpty(Model.ResultMessage))
+    {
+        <div class="alert alert-success mt-4" style="max-width: 600px; margin: 0 auto;">
+            <h4 class="alert-heading">@Model.ResultMessage</h4>
+
+            @if (Model.OriginalAmountDecimal > 0 && Model.ConvertedAmountDecimal > 0)
+            {
+                <hr>
+                <div class="mt-3">
+                    <p><strong>Exchange Rate:</strong> 1 @Model.FromCurrencySymbol = @Model.ExchangeRate.ToString("N4")
+                        @Model.ToCurrencySymbol</p>
+                    <p><strong>Details:</strong></p>
+                    <ul class="list-unstyled">
+                        <li>From: @Model.OriginalAmountDecimal.ToString("N2") @Model.FromCurrencySymbol</li>
+                        <li>To: @Model.ConvertedAmountDecimal.ToString("N2") @Model.ToCurrencySymbol</li>
+                        <li>Rate: @Model.ExchangeRate.ToString("N6")</li>
+                    </ul>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning mt-4">
+            <h4>No conversion data found</h4>
+            <p>Please go back and perform a currency conversion first.</p>
+        </div>
+    }
+
+    <div class="mt-4">
+        <form method="post">
+            <button type="submit" name="handler" value="ConvertAgain" class="btn btn-primary">
+                Convert Another Amount
+            </button>
+        </form>
+
+        <a href="/" class="btn btn-secondary mt-2">Return to Home</a>
+    </div>
+</div>
