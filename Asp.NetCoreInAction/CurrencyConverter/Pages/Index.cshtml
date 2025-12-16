@@ -1,10 +1,75 @@
 ﻿@page
-@model IndexModel
+@using CurrencyConverter.Services
+@inject ICurrencyService CurrencyService
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Currency Converter";
+    var currencies = CurrencyService.GetCurrencyNames();
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Currency Converter</h1>
+    <p class="lead">Convert between major world currencies</p>
+
+    <div class="row mt-4">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quick Convert</h5>
+                </div>
+                <div class="card-body">
+                    <form method="get" action="/Currency/Convert">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <input type="number" name="amount" class="form-control" placeholder="Amount" value="100"
+                                    step="0.01" min="0.01" />
+                            </div>
+                            <div class="col-md-7">
+                                <select name="from" class="form-control">
+                                    <option value="USD">USD - US Dollar</option>
+                                    <option value="EUR">EUR - Euro</option>
+                                    <option value="GBP">GBP - British Pound</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="text-center my-3">
+                            <i class="fas fa-exchange-alt fa-2x"></i>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select name="to" class="form-control">
+                                    <option value="EUR">EUR - Euro</option>
+                                    <option value="USD">USD - US Dollar</option>
+                                    <option value="GBP">GBP - British Pound</option>
+                                    <option value="JPY">JPY - Japanese Yen</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block mt-3">
+                            Convert Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h5>Supported Currencies</h5>
+                <div class="row">
+                    @foreach (var currency in currencies)
+                    {
+                        <div class="col-md-4 mb-2">
+                            <div class="card">
+                                <div class="card-body p-2">
+                                    <strong>@currency.Key</strong><br />
+                                    <small>@currency.Value</small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
