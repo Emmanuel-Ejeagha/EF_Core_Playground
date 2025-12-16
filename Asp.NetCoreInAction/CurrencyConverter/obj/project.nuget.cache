@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qf6VapJ1iKo=",
+  "dgSpecHash": "8Hi6mJUVHYM=",
   "success": true,
   "projectFilePath": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/CurrencyConverter/CurrencyConverter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/emmytek/.nuget/packages/jquery/1.8.0/jquery.1.8.0.nupkg.sha512",
+    "/home/emmytek/.nuget/packages/jquery.validation/1.8.0.1/jquery.validation.1.8.0.1.nupkg.sha512",
+    "/home/emmytek/.nuget/packages/microsoft.jquery.unobtrusive.ajax/3.2.6/microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512",
+    "/home/emmytek/.nuget/packages/microsoft.jquery.unobtrusive.validation/4.0.0/microsoft.jquery.unobtrusive.validation.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
