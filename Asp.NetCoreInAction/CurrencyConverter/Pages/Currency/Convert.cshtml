@@ -1,0 +1,27 @@
+﻿@page
+@model CurrencyConverter.Pages.Currency.ConvertModel
+@{
+    ViewData["Title"] = "Convert currency";
+}
+<h1>Convert Value</h1>
+<p>Choose the values </p>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Input.CurrencyForm"></label>
+        <input class="form-control" asp-for="Input.CurrencyForm" />
+        <span asp-validation-for="Input.CurrencyForm"></span>
+    </div>
+    <div class="formgroup">
+        <label asp-for="Input.Quantity"></label>
+        <input class="form-control" asp-for="Input.Quantity" />
+        <span asp-validation-for=Input.Quantity></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Input.CurrencyTo"></label>
+        <input class="form-control" asp-for="Input.CurrencyTo" />
+        <span asp-validation-for="Input.CurrencyTo"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit<button>
+</form>
