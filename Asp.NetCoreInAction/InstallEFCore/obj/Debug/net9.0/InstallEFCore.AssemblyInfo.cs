@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2ac29c1c7d6d7e942ddd1e202b629bfa22c98a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d49cfea0670e1840dc534e325730e6732e245")]
 [assembly: System.Reflection.AssemblyProductAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

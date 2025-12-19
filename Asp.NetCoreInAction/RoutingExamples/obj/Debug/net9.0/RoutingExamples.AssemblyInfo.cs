@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoutingExamples")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e87c4c4d3e28c62c5f70d311914e46294f2236")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d49cfea0670e1840dc534e325730e6732e245")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoutingExamples")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoutingExamples")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

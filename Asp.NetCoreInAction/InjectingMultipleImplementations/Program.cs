@@ -6,6 +6,11 @@ builder.Services.AddHttpLogging(options =>
     options.LoggingFields = HttpLoggingFields.RequestProperties);
 builder.Logging.AddFilter("Microsoft.AspNetCore", LogLevel.Information);
 
+if (builder.Environment.IsDevelopment())
+{
+    builder.Configuration.AddUserSecrets<Program>();
+}
+
 // Implement this only in developmentenv bcos it has performance cost
 builder.Host.UseDefaultServiceProvider(o =>
 {

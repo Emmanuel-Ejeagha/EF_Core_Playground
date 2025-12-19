@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultipleVerbsMinimalApiWithStatusCodes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a49cebb169269150efd9d088717e145898443a30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d49cfea0670e1840dc534e325730e6732e245")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultipleVerbsMinimalApiWithStatusCodes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultipleVerbsMinimalApiWithStatusCodes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/StoreViewerApplication/index.9ecsu4fgxc.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9ecsu4fgxc"},{"Name":"integrity","Value":"sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP\u002BHH8hZrLY0KBcc="},{"Name":"label","Value":"_content/StoreViewerApplication/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5502"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022wYsmYXrEhd54JwvrEidg5yv07aNmP\u002BHH8hZrLY0KBcc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 09 Dec 2025 17:17:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StoreViewerApplication/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP\u002BHH8hZrLY0KBcc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5502"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022wYsmYXrEhd54JwvrEidg5yv07aNmP\u002BHH8hZrLY0KBcc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 09 Dec 2025 17:17:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StoreViewerApplication/kitchen.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\kitchen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq\u002BmE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"262116"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002230qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq\u002BmE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 09 Dec 2025 17:32:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StoreViewerApplication/kitchen.xcxha2ihaz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\kitchen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xcxha2ihaz"},{"Name":"integrity","Value":"sha256-30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq\u002BmE="},{"Name":"label","Value":"_content/StoreViewerApplication/kitchen.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"262116"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002230qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq\u002BmE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 09 Dec 2025 17:32:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

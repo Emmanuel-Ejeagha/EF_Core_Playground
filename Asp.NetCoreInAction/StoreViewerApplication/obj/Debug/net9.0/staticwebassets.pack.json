@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/kitchen.jpg",
+      "PackagePath": "staticwebassets/kitchen.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StoreViewerApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StoreViewerApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.StoreViewerApplication.props",
+      "PackagePath": "build\\StoreViewerApplication.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.StoreViewerApplication.props",
+      "PackagePath": "buildMultiTargeting\\StoreViewerApplication.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.StoreViewerApplication.props",
+      "PackagePath": "buildTransitive\\StoreViewerApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

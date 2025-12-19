@@ -1,0 +1,465 @@
+{
+  "Version": 1,
+  "Hash": "A1pV281MW9XRWBhseEZsRGqE9vNrazj8OJ/Hr9MkueQ=",
+  "Source": "StoreViewerApplication",
+  "BasePath": "_content/StoreViewerApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StoreViewerApplication/wwwroot",
+      "Source": "StoreViewerApplication",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/",
+      "BasePath": "_content/StoreViewerApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/i2y6pmw22a-9ecsu4fgxc.gz",
+      "SourceId": "StoreViewerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/StoreViewerApplication",
+      "RelativePath": "index#[.{fingerprint=9ecsu4fgxc}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l0zcb1wjyk",
+      "Integrity": "u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html",
+      "SourceId": "StoreViewerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/",
+      "BasePath": "_content/StoreViewerApplication",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ecsu4fgxc",
+      "Integrity": "wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/kitchen.jpg",
+      "SourceId": "StoreViewerApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/",
+      "BasePath": "_content/StoreViewerApplication",
+      "RelativePath": "kitchen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xcxha2ihaz",
+      "Integrity": "30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq+mE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/kitchen.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.9ecsu4fgxc.html",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/i2y6pmw22a-9ecsu4fgxc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000545851528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1831"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ecsu4fgxc"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc="
+        }
+      ]
+    },
+    {
+      "Route": "index.9ecsu4fgxc.html",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ecsu4fgxc"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc="
+        }
+      ]
+    },
+    {
+      "Route": "index.9ecsu4fgxc.html.gz",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/i2y6pmw22a-9ecsu4fgxc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ecsu4fgxc"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/i2y6pmw22a-9ecsu4fgxc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000545851528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1831"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wYsmYXrEhd54JwvrEidg5yv07aNmP+HH8hZrLY0KBcc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/obj/Debug/net9.0/compressed/i2y6pmw22a-9ecsu4fgxc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:17:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3RPgCs56w2pVyYdXNwp3nLE1nKxjMrBOfsNrbo81vU="
+        }
+      ]
+    },
+    {
+      "Route": "kitchen.jpg",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/kitchen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq+mE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:32:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq+mE="
+        }
+      ]
+    },
+    {
+      "Route": "kitchen.xcxha2ihaz.jpg",
+      "AssetFile": "/home/emmytek/Desktop/EFCoreInAction/Asp.NetCoreInAction/StoreViewerApplication/wwwroot/kitchen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq+mE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:32:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xcxha2ihaz"
+        },
+        {
+          "Name": "label",
+          "Value": "kitchen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-30qWryIb2DaAFbuF5NB9jDFbz4R5kdfr4BZJ6Phq+mE="
+        }
+      ]
+    }
+  ]
+}

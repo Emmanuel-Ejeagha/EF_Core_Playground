@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWebApi", "Asp.NetCoreI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiControllerAttrb", "Asp.NetCoreInAction\ApiControllerAttrb\ApiControllerAttrb.csproj", "{6747F7F1-A4B6-4CCD-A3CC-46C1EA1FC28A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiController", "Asp.NetCoreInAction\WebApiController\WebApiController.csproj", "{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -353,6 +355,18 @@ Global
 		{6747F7F1-A4B6-4CCD-A3CC-46C1EA1FC28A}.Release|x64.Build.0 = Release|Any CPU
 		{6747F7F1-A4B6-4CCD-A3CC-46C1EA1FC28A}.Release|x86.ActiveCfg = Release|Any CPU
 		{6747F7F1-A4B6-4CCD-A3CC-46C1EA1FC28A}.Release|x86.Build.0 = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|x64.Build.0 = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Debug|x86.Build.0 = Debug|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|x64.ActiveCfg = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|x64.Build.0 = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|x86.ActiveCfg = Release|Any CPU
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,6 +396,7 @@ Global
 		{F3A66361-F582-4A74-A12E-0C85F4046CBF} = {642712A2-4DF6-5339-664A-38ADAE307475}
 		{1567BD06-EBB0-41E5-A5A8-8AE675D58B5F} = {642712A2-4DF6-5339-664A-38ADAE307475}
 		{6747F7F1-A4B6-4CCD-A3CC-46C1EA1FC28A} = {642712A2-4DF6-5339-664A-38ADAE307475}
+		{8015BD09-AC05-4CAA-87A4-FCDAC56B0792} = {642712A2-4DF6-5339-664A-38ADAE307475}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E27D4936-A23B-404C-9F98-08E71CCB021E}

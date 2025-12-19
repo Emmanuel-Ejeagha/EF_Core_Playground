@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SendingAnEmailWithoutDI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b521d5b011ffef336ffc4e402dc01a3ce758b2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d49cfea0670e1840dc534e325730e6732e245")]
 [assembly: System.Reflection.AssemblyProductAttribute("SendingAnEmailWithoutDI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SendingAnEmailWithoutDI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
