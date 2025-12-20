@@ -1,8 +1,17 @@
+using Microsoft.AspNetCore.HttpLogging;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddHttpLogging(opts =>
+    opts.LoggingFields = HttpLoggingFields.RequestProperties);
+
+builder.Logging.AddFilter("Microsoft.AspNetCore", LogLevel.Information);
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -13,6 +22,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapControllers();
 
 var summaries = new[]
 {
