@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d49cfea0670e1840dc534e325730e6732e245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11326c41510157ec358a0f816829f670f61ce42f")]
 [assembly: System.Reflection.AssemblyProductAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InstallEFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

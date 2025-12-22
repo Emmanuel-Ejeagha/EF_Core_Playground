@@ -5,13 +5,15 @@ using InstallEFCore.ViewModels;
 using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddHttpLogging(opts =>
-//     opts.LoggingFields = HttpLoggingFields.RequestProperties);
-// builder.Logging.AddFilter("Microsoft.AspNetCore", LogLevel.Information);
+builder.Services.AddHttpLogging(opts =>
+    opts.LoggingFields = HttpLoggingFields.RequestProperties);
+builder.Logging.AddFilter("Microsoft.AspNetCore", LogLevel.Information);
 
+builder.Services.AddRazorPages();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
@@ -23,6 +25,11 @@ builder.Services.AddSwaggerGen(options =>
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(connString));
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(opts =>
+        opts.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<AppDbContext>();
+
 builder.Services.AddScoped<RecipeService>();
 builder.Services.AddProblemDetails();
 
@@ -32,6 +39,12 @@ app.UseExceptionHandler();
 
 app.UseSwagger();
 app.UseSwaggerUI();
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+app.MapRazorPages();
+
 
 var routes = app.MapGroup("")
     .WithParameterValidation()
